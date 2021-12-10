@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+header {
+    height: 1em;
+    background-color: whitesmoke;  
+    padding: 1%;
+    text-align: center;
+}
+
+
+#menuPrincipal {
+    list-style-type: none;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+   
+}
+
+#menuPrincipal li {
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+#zona1 {
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: rgb(6, 120, 214);
+    height: 25em;
+    width: 80vw;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#logo {
+    float: left;
+}
+#logo img {
+    width: 30vw;
+    margin-left: 10%;
+}
+
+#descargar {
+ float: left;
+ width: 50%;
+ margin-left: 5em;
+}
+
+#descargar h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+#descargar h4 {
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.botonDescargar {
+    background-color: greenyellow;
+    color: #ffffff;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#Video {
+    float: left;
+    margin-left: 7.5%;
+    margin-top: 1%;
+    background-color: rgb(6, 120, 214);
+    height: 325px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#autor {
+    float: right;
+    margin-right: 7.5%;
+    margin-top: 1%;
+    background-color: rgb(6, 120, 214);
+    height: 325px;
+    width: 220px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#autor img {
+    width: 200px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0vh;
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}

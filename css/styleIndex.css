@@ -38,7 +38,7 @@ header {
     float: left;
 }
 #logo img {
-    width: 30vw;
+    width: 350px;
     margin-left: 10%;
 }
 
@@ -75,9 +75,8 @@ header {
 }
 
 #Video {
-    float: left;
-    margin-left: 7.5%;
-    margin-top: 1%;
+    margin: 0 auto;
+    margin-top: 20px;
     background-color: rgb(6, 120, 214);
     height: 325px;
     width: 600px;
@@ -87,18 +86,7 @@ header {
     margin-bottom: 10%;
 }
 
-#autor {
-    float: right;
-    margin-right: 7.5%;
-    margin-top: 1%;
-    background-color: rgb(6, 120, 214);
-    height: 325px;
-    width: 220px;
-    padding: 20px;
-    border-radius: 30px;
-    text-align: center;
-    margin-bottom: 10%;
-}
+
 
 #autor img {
     width: 200px;

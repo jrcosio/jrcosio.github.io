@@ -28,24 +28,20 @@ header {
     margin: 0 auto;
     margin-top: 2%;
     background-color: rgb(6, 120, 214);
-    height: 25em;
+    height: 600px;
     width: 80vw;
     padding: 20px;
+   /* height: 325px;
+    width: 600px;
+    padding: 20px;*/
     border-radius: 30px;
+    text-align: center;
 }
 
-#logo {
-    float: left;
-}
+
 #logo img {
-    width: 350px;
+    width: 250px;
     margin-left: 10%;
-}
-
-#descargar {
- float: left;
- width: 50%;
- margin-left: 5em;
 }
 
 #descargar h1 {
@@ -62,8 +58,7 @@ header {
 
 .botonDescargar {
     background-color: greenyellow;
-    color: #ffffff;
-    width: 100px;
+    width: 200px;
     padding: 15px;
     text-align: center;
     border-radius: 15px;
@@ -71,25 +66,53 @@ header {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 30px;
    
+}
+.botonDescargar a {
+    text-decoration: none;
+    color: black;
+}
+.botonDescargar:hover {
+    background-color: coral;
 }
 
 #Video {
     margin: 0 auto;
     margin-top: 20px;
     background-color: rgb(6, 120, 214);
-    height: 325px;
-    width: 600px;
+    height: 350px;
+    width: 80vw;
     padding: 20px;
     border-radius: 30px;
     text-align: center;
-    margin-bottom: 10%;
+    
 }
 
+#Video p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
 
-
+#autor {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
 #autor img {
     width: 200px;
+}
+#autor a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+
+#autor a:hover {
+    background-color: coral;
 }
 
 footer {
